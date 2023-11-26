@@ -1,0 +1,117 @@
+body {
+    background-color: #08a9ef;
+  }
+  form {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .wsearch {
+    padding: 8px 12px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Style for the weather details */
+  .weather {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .today {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #08a9ef;
+  }
+  
+  .details {
+    text-align: left;
+    margin-right: 50px;
+  }
+  
+  .city {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .extradetails {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .extradetails p {
+    margin: 0;
+    margin-right: 20px;
+  }
+  
+  .wimage {
+    width: 150px;
+    height: 150px;
+    margin: 0 50px;
+  }
+  
+  .wtemp {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  /* Style for the forecast */
+  .forecast {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+  
+  .forecast article {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .forecasticon {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .day1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .temp1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .value,
+  .value1,
+  .value2,
+  .value3,
+  .value4 {
+    font-weight: bold;
+    font-size: 28px;
+  }
